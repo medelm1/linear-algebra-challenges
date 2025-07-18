@@ -9,3 +9,11 @@ Write a function using NumPy that receives a 1D NumPy array of integers and **re
 - Use NumPy (i.e., the function must use NumPy operations).
 - **You must not use regular Python loops** (no `for`, `while`).
 - Return a **new NumPy array** (do not modify the original input array).
+
+## Function Signature
+```python
+import numpy as np
+
+def double_evens(arr: np.ndarray) -> np.ndarray:
+    pass
+```
